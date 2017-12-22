@@ -75,6 +75,66 @@ This function says hello.
 
 Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** The hello.
 
+### getSubstringBetweenTwoCharacters
+
+Returns a substring between a set of start and end characters
+
+**Parameters**
+
+-   `str` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+-   `start` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+-   `end` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+
+Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+
+### getSubstringBeforeCharacter
+
+Returns a substring before the last occurence of a character
+
+**Parameters**
+
+-   `str` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+-   `char` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+
+Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+
+### getSubstringAfterCharacter
+
+Returns a substring after the last occurence of a character
+
+**Parameters**
+
+-   `str` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+-   `char` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+
+Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+
+### convertUnderscoreToSpace
+
+Converts underscores to spaces
+
+**Parameters**
+
+-   `str` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+
+Returns **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+
+### capitalizeFirstLetter
+
+Capitalize the first letter of a string
+
+**Parameters**
+
+-   `str` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+
+### convertCamelToSentenceCase
+
+Convert camel case to sentence
+
+**Parameters**
+
+-   `str` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)** 
+
 ## License
 
 MIT © [Diego Haz](https://github.com/diegohaz)
